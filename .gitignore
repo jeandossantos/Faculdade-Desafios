@@ -1,0 +1,35 @@
+# Arquivos de compilação
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Arquivos temporários
+*.log
+*.log.*
+*.tmp
+
+# Configurações específicas da IDE (por exemplo, IntelliJ, Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+
+# Arquivos de dependências gerados pelo Maven
+dependency-reduced-pom.xml
+.mvn/
+
+# Arquivos de configuração do Gradle
+.gradle/
+build/
+
+# Arquivos de configuração específicos da aplicação
+application.properties
+application.yml
+
+# Arquivos de configuração de logging
+logback.xml
+log4j.xml
